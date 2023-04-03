@@ -61,19 +61,19 @@
 
         ext_layer {
             bindings = <
-                &kp ESC     &trans      &trans      &trans    &trans           &kp PG_UP      &kp HOME &kp UP   &kp END   &kp CAPS
-                &sk LALT    &sk LGUI    &sk LSHIFT  &sk LCTRL &kp RALT         &kp PG_DN      &kp LEFT &kp DOWN &kp RIGHT &kp DEL
-                &kp LGUI(Z) &kp LGUI(X) &kp LGUI(C) &kp TAB   &kp LGUI(V)      &kp LGUI(BSPC) &kp BSPC &none    &none     &none
-                                                    &trans    &kp LCTRL        &kp ENTER    &mo FUN
+                &kp ESC   &trans    &trans     &trans    &trans           &kp PG_UP    &kp HOME &kp UP   &kp END   &kp CAPS
+                &sk LALT  &sk LGUI  &sk LSHIFT &sk LCTRL &kp RALT         &kp PG_DN    &kp LEFT &kp DOWN &kp RIGHT &kp DEL
+                &kp LG(Z) &kp LG(X) &kp LG(C)  &kp TAB   &kp LG(V)        &kp LG(BSPC) &kp BSPC &none    &none     &none
+                                               &trans    &kp LCTRL        &kp ENTER    &mo FUN
             >;
         };
 
         fun_layer {
             bindings = <
-                &kp K_MUTE &kp C_VOL_DN &C_VOL_UP  &kp C_BRI_DN &C_BRI_UP       &kp F12 &kp F7 &kp F8 &kp F9 &none
-                &sk LALT   &sk LGUI     &sk LSHIFT &sk LCTRL    &kp RALT        &kp F11 &kp F4 &kp F5 &kp F6 &none
-                &none      &none        &none      &none        &none           &kp F10 &kp F1 &kp F2 &kp F3 &none
-                                                   &none        &none           &none   &none
+                &kp K_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp C_BRI_DN &kp C_BRI_UP        &kp F12 &kp F7 &kp F8 &kp F9 &none
+                &sk LALT   &sk LGUI     &sk LSHIFT   &sk LCTRL    &kp RALT            &kp F11 &kp F4 &kp F5 &kp F6 &none
+                &none      &none        &none        &none        &none               &kp F10 &kp F1 &kp F2 &kp F3 &none
+                                                     &none        &none               &none   &none
             >;
         };
 
@@ -88,10 +88,10 @@
 
         settings_layer {
             bindings = <
-                &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3       &none &none &none &none &none
-                &none       &none        &none        &none        &none              &none &none &none &none &none
-                &bootloader &none        &none        &none        &none              &none &none &none &none &bootloader
-                                                      &none        &none              &none &none
+                &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3         &none &none &none &none &none
+                &none       &none        &none        &none        &none                &none &none &none &none &none
+                &bootloader &none        &none        &none        &none                &none &none &none &none &bootloader
+                                                      &none        &none                &none &none
             >;
         };
 
